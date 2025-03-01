@@ -64,7 +64,7 @@ public class SimpleModuleScript : MonoBehaviour {
 				number = number * 4;
 			}
 		}
-		if (number <= 40)
+		else if (number <= 40)
 		{
 			if (info.GetBatteryCount () < 2) 
 			{
